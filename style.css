@@ -112,7 +112,8 @@ main{
     width: 100%;
     height: auto;
     max-width: 260px;
-    padding-left: 30px;   
+    padding-left: 30px; 
+    margin-bottom: 15px;  
     
 }
 .main-subtitle{
@@ -150,9 +151,11 @@ main{
     font-weight: 500;
     line-height: 3.4rem;
     letter-spacing: 0em;
+    margin-top: 22px;
+    margin-bottom: 33px;
 }
 .main-body-text{
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
     line-height: 1.8rem;
     letter-spacing: 0em;   
@@ -162,17 +165,17 @@ main{
 .form{
     width: 100%;
     height: auto;
-    max-width: 220px;
+    max-width: 265px;
     margin-top: 40px;
     padding-left: 30px;     
 
 }
-/* Titulos del Form*/
-.form-title{
-    font-size: 1.4rem;
-    font-weight: 600;
-    line-height: 1.7rem;
-    margin-bottom: 11px;
+.label{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    color: #828282;
 }
 .email-list{
     text-decoration: none;
@@ -218,8 +221,8 @@ input{
 /* Button Join*/
 .join{
     position: absolute;
-    top: 26px;
-    left: 143px;
+    top: 29px;
+    left: 160px;
     width: 71px;
     height: 39px;
     background: #2D9CDB;
