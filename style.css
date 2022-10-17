@@ -95,3 +95,139 @@ header {
     list-style: none;
 
 }
+main{
+    width: 100%;
+    height: auto;
+    padding: 0 10px; 
+}
+/* Homepage */
+.main-homepage-container{
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    margin-top: 40px;
+}
+/* Title */
+.main-title-container{
+    width: 100%;
+    height: auto;
+    max-width: 260px;
+    padding-left: 30px;   
+    
+}
+.main-subtitle{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    letter-spacing: 0em;
+    color: rgba(45, 156, 219, 1);
+}
+.main-title{
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 3.4rem;
+    letter-spacing: 0em;
+}
+/* Hero img */
+.main-hero-container{
+    width: 98%;
+    height: 148px;
+    background-image: url(./assets/heroImage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+/* Body */
+.main-body-container{
+    width: 100%;
+    height: auto;
+    max-width: 260px;
+    padding-left: 30px;     
+}
+.main-body-title{
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 3.4rem;
+    letter-spacing: 0em;
+}
+.main-body-text{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0em;   
+}
+/* Email form  */
+/* Formulario */
+.form{
+    width: 100%;
+    height: auto;
+    max-width: 220px;
+    margin-top: 40px;
+    padding-left: 30px;     
+
+}
+/* Titulos del Form*/
+.form-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.7rem;
+    margin-bottom: 11px;
+}
+.email-list{
+    text-decoration: none;
+}
+/* Label text */
+.list-container{
+    width: 100%;
+    height: auto;
+    max-width: 290px;
+    list-style: none;
+    padding: 5px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2rem;
+    letter-spacing: 0em;
+}
+.list-body{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* Etiquetas titulos */
+label{
+    margin: 5px 0;
+}
+/* Icono del label */
+input{
+    position: relative;
+    width: 100%;
+    height: 47px;
+    padding-left: 20px;
+    background: #F2F2F2;
+    border: none;
+    border-radius: 12px;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    color: #4E5150;
+}
+/* Button Join*/
+.join{
+    position: absolute;
+    top: 26px;
+    left: 143px;
+    width: 71px;
+    height: 39px;
+    background: #2D9CDB;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    color: white;
+}
