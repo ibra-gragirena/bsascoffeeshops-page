@@ -19,7 +19,7 @@ html{
 /* Icons */
 .material-symbols-outlined {
     font-variation-settings:
-    'FILL' 0,
+    'FILL' 1,
     'wght' 400,
     'GRAD' 0,
     'opsz' 48
@@ -233,4 +233,89 @@ input{
     line-height: 1.5rem;
     letter-spacing: 0em;
     color: white;
+}
+/* Services container */
+.services-container{
+    width: 100%;
+    height: auto;
+    max-width: 260px;
+    padding-left: 30px; 
+    margin-top: 100px;
+    margin-bottom: 15px;  
+}
+.services-card{
+        padding: 50px 34px 43px;
+}
+.services-card:hover{
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    border-radius: 24px;
+}
+.services-title{
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 3.4rem;
+    letter-spacing: 0em;
+    margin-bottom: 90px;
+}
+/* Services card */
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 67px;
+    height: 67px;
+    font-size: 3rem;
+    border-radius: 16px;
+    margin-bottom: 35px;
+}
+.fav-logo{
+    color: #fefae0;
+    background: #f08080;
+}
+.group-logo{
+    color: #fefae0;
+    background: #bdb2ff;
+}
+.store-logo{
+    color: #fefae0;
+    background: #a0c4ff;
+}
+.service-name{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    letter-spacing: 0em;
+    margin-bottom: 24px;
+}
+.service-body{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: 0em;
+    margin-bottom: 30px;
+}
+/* Contact button */
+.contact-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 38px;
+    background: #E0E0E0;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    margin-bottom: 43px;
+}
+.contact-button:hover{
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.238);
+    background-color: #c8e7ff;
+
+ 
+}
+a{
+    text-decoration: none;
 }
