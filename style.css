@@ -133,7 +133,7 @@ main{
 .main-hero-container{
     width: 98%;
     height: 148px;
-    background-image: url(./assets/heroImage.jpg);
+    background-image: url(./assets/hero.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -318,4 +318,80 @@ input{
 }
 a{
     text-decoration: none;
+}
+/* Product section */
+.product-info-container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px; 
+}
+.section-title{
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 3.4rem;
+    letter-spacing: 0em;
+    margin-bottom: 48px;
+    padding-left: 30px;
+}
+.product-content-container{
+   width: 100%;
+   height: 300px;
+   background-image: url(./assets/Frame\ 2.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain; 
+}
+.product-description{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    letter-spacing: 0em;
+    margin-top: 6px;
+}
+.product-name{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+    letter-spacing: 0em;
+    border-radius: 12px;
+    margin-bottom: 36px;
+   
+}
+.product-comunity-container{
+   width: 100%;
+   height: 300px;
+   background-image: url(./assets/Frame\ 3.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   border-radius: 12px;
+
+}
+.product-agency-container{
+   width: 100%;
+   height: 300px;
+   background-image: url(./assets/Frame\ 4.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain; 
+   border-radius: 12px;
+ 
+}
+.read-more-ca{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 36px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+    letter-spacing: 0em;
+
+    color: #2D9CDB;
+
+
+}
+.arrow-right{
+    font-size: 1.5rem;
+    padding-left: 8px;
 }
