@@ -111,20 +111,20 @@ main{
 .main-title-container{
     width: 100%;
     height: auto;
-    max-width: 260px;
+    max-width: 280px;
     padding-left: 30px; 
     margin-bottom: 15px;  
     
 }
 .main-subtitle{
-    font-size: 1rem;
+    font-size: 1..2rem;
     font-weight: 500;
     line-height: 1.8rem;
     letter-spacing: 0em;
     color: rgba(45, 156, 219, 1);
 }
 .main-title{
-    font-size: 2.1rem;
+    font-size: 1.9rem;
     font-weight: 500;
     line-height: 3.4rem;
     letter-spacing: 0em;
@@ -313,8 +313,6 @@ input{
 .contact-button:hover{
     box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.238);
     background-color: #c8e7ff;
-
- 
 }
 a{
     text-decoration: none;
@@ -386,7 +384,6 @@ a{
     font-weight: 500;
     line-height: 2.7rem;
     letter-spacing: 0em;
-
     color: #2D9CDB;
 
 
@@ -394,4 +391,116 @@ a{
 .arrow-right{
     font-size: 1.5rem;
     padding-left: 8px;
+}
+/* Team card */
+.team-card-container{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.text-container{
+    max-width: 260px;
+}
+.team-card-subtitle{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    letter-spacing: 0em;
+    color: rgba(235, 87, 87, 1);
+    margin-bottom: 7px;
+}
+.team-card-title{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    letter-spacing: 0em;
+    margin-bottom: 24px;
+}
+.team-card-body{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: 0em;
+    margin-bottom: 30px;
+}
+/* Team IMG */
+.team-img-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.anto-img{
+    width: 160px;
+    height: 150px;
+    padding: 2px;
+    background-image: url(./assets/anto.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+.alvaro-img{
+    width: 160px;
+    height: 150px;
+    padding: 2px;
+    background-image: url(./assets/alvaro.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 18px;    
+}
+.alejo-img{
+    width: 160px;
+    height: 150px;
+    padding: 2px;
+    background-image: url(./assets/alejo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+/* Review */
+.review-body{
+    width: 100%;
+    height: auto;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+    letter-spacing: 0em;
+}
+.review-container{
+    display: flex;
+    margin-top: 18px;
+}
+/* IMG */
+.luis-img{
+    width: 80px;
+    height: 80px;
+    background-image: url(./assets/alejo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+.review-name-container{
+    padding-left: 12px;
+}
+.review-name{
+font-size: 2.4rem;
+font-weight: 500;
+line-height: 3.6rem;
+letter-spacing: 0em;
+
+}
+.review-store{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+    letter-spacing: 0em;
+
 }
